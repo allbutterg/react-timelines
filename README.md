@@ -6,16 +6,16 @@
 
 ```sh
 # with npm
-npm install react-timelines
+npm install react-timelines-update
 
 # or with Yarn
-yarn add react-timelines
+yarn add react-timelines-update
 ```
 
 ## Use
 
 ```js
-import Timeline from 'react-timelines'
+import Timeline from 'react-timelines-update'
 
 const MyWidget = () => <Timeline {...props} />
 
@@ -40,12 +40,12 @@ Using Sass you can configure the timeline with variables:
 $react-timelines-font-family: MaryAnn;
 $react-timelines-sidebar-width: 320px;
 
-@import '~/react-timelines/src/scss/style';
+@import '~/react-timelines-update/src/scss/style';
 ```
 
 ### Without build tools
 
-Create a CSS file with the contents of `react-timelines/lib/css/style.css` and include it in `<head>`
+Create a CSS file with the contents of `react-timelines-update/lib/css/style.css` and include it in `<head>`
 
 ## Development
 
