@@ -1,5 +1,5 @@
 {
-  "name": "react-timelines-update",
+  "name": "@allbutterg/react-timelines-update",
   "version": "2.7.2",
   "description": "React Timelines",
   "main": "lib/index.js",
@@ -36,7 +36,10 @@
     "tracks",
     "time"
   ],
-  "repository": "git@github.com:JSainsburyPLC/react-timelines.git",
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@github.com/JSainsburyPLC/react-timelines.git"
+  },
   "author": "JSainsburyPLC",
   "license": "MIT",
   "dependencies": {
@@ -97,5 +100,9 @@
   },
   "resolutions": {
     "**/**/minimist": "1.2.5"
-  }
+  },
+  "bugs": {
+    "url": "https://github.com/JSainsburyPLC/react-timelines/issues"
+  },
+  "homepage": "https://github.com/JSainsburyPLC/react-timelines#readme"
 }
