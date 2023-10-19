@@ -1,6 +1,6 @@
 {
   "name": "@allbutterg/react-timelines-update",
-  "version": "2.7.3",
+  "version": "2.7.4",
   "description": "React Timelines",
   "main": "lib/index.js",
   "scripts": {
